@@ -1,0 +1,28 @@
+{
+  "name": "hello-gatsby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
+    "bootstrap": "^4.4.1",
+    "gatsby": "^2.19.35",
+    "gatsby-plugin-mdx": "^1.0.79",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-source-filesystem": "^2.1.52",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "swagger-ui": "^3.25.0",
+    "swagger-ui-react": "^3.25.0"
+  }
+}
