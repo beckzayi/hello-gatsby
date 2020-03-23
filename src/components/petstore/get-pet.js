@@ -1,19 +1,16 @@
 import React from 'react';
+import Loadable from '@loadable/component';
 import "swagger-ui-react/swagger-ui.css";
 
-class GetPet extends React.Component {
-    render() {
-        const { SwaggerUI } = window;
-        return (
-            <div>
-                {/* <SwaggerUI url="https://petstore.swagger.io/v2/swagger.json" /> */}
-                <SwaggerUI
-                    url="/api/petstore/get-pet.json"
-                    docExpansion="list"
-                />
-            </div>
-        );
-    }
-}
+const SwaggerUI = Loadable(() => import('swagger-ui-react'));
+
+const GetPet = () => (
+    <div>
+        <SwaggerUI
+            url="/api/petstore/get-pet.json"
+            docExpansion="list"
+        />
+    </div>
+);
 
 export default GetPet;
