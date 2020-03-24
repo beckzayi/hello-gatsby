@@ -11,11 +11,13 @@ export default () => (
         <div className="mt-4">
             <h1>Overview</h1>
             <div>
-                <p>The EnableHR API allows you to interact with our system programmatically from your own application. Using the API you interact with Resources such as:</p>
+                <p>The EnableHR API allows you to interact with our system programmatically from your own application. Using the API you interact with resources such as:</p>
+                <p>
+                    <Link to="/docs/pets/read-pet" className="btn btn-primary">Try Now</Link>
+                </p>
                 <ul>
-                    <li><Link to="/docs/pets/read-pet">Pets</Link> (reference: <a href="https://petstore.swagger.io/" target="_blank">Swagger UI</a>)</li>
-                    <li>Stores</li>
-                    <li>Subscriptions</li>
+                    <li><Link to="/docs/pets/read-pet">Pets</Link> (reference: <a href="https://petstore.swagger.io/" target="_blank" rel="noopener noreferrer">Swagger UI</a>)</li>
+                    <li><Link to="/docs/jsonplaceholder/read-post">Posts</Link> (reference: <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer">JSONPlaceholder</a>)</li>
                 </ul>
             </div>
         </div>
@@ -25,7 +27,7 @@ export default () => (
                 <ul>
                     <li>Go to <Link to="/docs/pets/read-pet">Read Pet</Link></li>
                     <li>Click the "GET" button</li>
-                    <li>Click "Try it out", and enter <code>petId</code>, <code>2</code> for example</li>
+                    <li>Click "Try it out", and enter 2 in <code>petId</code> for example</li>
                     <li>Lastly click "Execute" to send request</li>
                 </ul>
             </div>
@@ -45,7 +47,7 @@ export default () => (
         <div className="mt-4">
             <h1>Github</h1>
             <div>
-                <a href="https://github.com/beckzayi/hello-gatsby" target="_blank">https://github.com/beckzayi/hello-gatsby</a>
+                <a href="https://github.com/beckzayi/hello-gatsby" target="_blank" rel="noopener noreferrer">https://github.com/beckzayi/hello-gatsby</a>
             </div>
         </div>
     </Layout>

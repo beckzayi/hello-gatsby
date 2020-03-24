@@ -4,10 +4,10 @@ import { Link } from 'gatsby';
 const Sidebar = () => (
     <nav className="bd-links" aria-label="main navigation">
         <div className="bd-toc-item">
-            <div className="bd-toc-link">Pet Store</div>
+            <div className="bd-toc-link">Pet Store (swagger ui)</div>
             <ul className="nav bd-sidenav">
                 <li>
-                    <Link to="/docs/pets/read-pet" activeClassName="current-page active bd-sidenav-active">Read Pet</Link>
+                    <Link to="/docs/pets/read-pet" activeClassName="current-page active bd-sidenav-active">Read Pet<span className="text-warning float-right">Try</span></Link>
                 </li>
                 <li>
                     <Link to="/docs/pets/create-pet" activeClassName="current-page active bd-sidenav-active">Create Pet</Link>
@@ -17,6 +17,17 @@ const Sidebar = () => (
                 </li>
                 <li>
                     <Link to="/docs/pets/delete-pet" activeClassName="current-page active bd-sidenav-active">Delete Pet</Link>
+                </li>
+            </ul>
+        </div>
+        <div className="bd-toc-item">
+            <div className="bd-toc-link">Post (jsonplaceholder)</div>
+            <ul className="nav bd-sidenav">
+                <li>
+                    <Link to="/docs/jsonplaceholder/all-posts" activeClassName="current-page active bd-sidenav-active">All Posts<span className="text-warning float-right">Try</span></Link>
+                </li>
+                <li>
+                    <Link to="/docs/jsonplaceholder/read-post" activeClassName="current-page active bd-sidenav-active">Read Post<span className="text-warning float-right">Try</span></Link>
                 </li>
             </ul>
         </div>
