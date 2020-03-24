@@ -18,7 +18,7 @@ module.exports = {
         },
     ],
     siteMetadata: {
-        title: 'Hello Gatsby Workshop',
-        description: 'A site we built together'
+        title: 'Hello API Documentation',
+        description: 'Hosted API documentation for Swagger spec out there'
     }
 };

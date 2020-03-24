@@ -5,6 +5,8 @@ import Sidebar from './sidebar';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
+import '../styles/swagger-global.css';
+import '../styles/theme-material.css';
 
 const Layout = ({ children }) => {
     const { title, description } = useSiteMetadata();
