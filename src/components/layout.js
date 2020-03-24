@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
                 <html lang="en" />
                 <title>{title}</title>
                 <meta name="description" content={description} />
+                <link rel="shortcut icon" href="/images/favicon.ico" />
             </Helmet>
             <Header />
             <div className="container-fluid">

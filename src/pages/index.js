@@ -13,7 +13,7 @@ export default () => (
             <div>
                 <p>The EnableHR API allows you to interact with our system programmatically from your own application. Using the API you interact with Resources such as:</p>
                 <ul>
-                    <li><Link to="/docs/pets/read-pet">Pets</Link> (reference: <Link to="https://petstore.swagger.io/">Swagger UI</Link>)</li>
+                    <li><Link to="/docs/pets/read-pet">Pets</Link> (reference: <a href="https://petstore.swagger.io/" target="_blank">Swagger UI</a>)</li>
                     <li>Stores</li>
                     <li>Subscriptions</li>
                 </ul>
@@ -40,6 +40,12 @@ export default () => (
                     <li><b>Swagger UI</b> - an API documentation tool.</li>
                     <li><b>GraphQL</b> - Gatsby already includes this tool, but it is not widely used in this project yet.</li>
                 </ul>
+            </div>
+        </div>
+        <div className="mt-4">
+            <h1>Github</h1>
+            <div>
+                <a href="https://github.com/beckzayi/hello-gatsby" target="_blank">https://github.com/beckzayi/hello-gatsby</a>
             </div>
         </div>
     </Layout>
