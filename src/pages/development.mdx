@@ -1,0 +1,48 @@
+---
+title: Development
+slug: development
+---
+
+# Development
+
+<hr />
+
+## How to create a page for API doc?
+
+Create the mdx file under the ```page``` folder.
+
+Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/src/pages/docs/pets/read-pet.mdx" target="_blank">this</a> as an example, and the outcome is [Read Pet](/docs/pets/read-pet).
+
+<hr />
+
+## How to use Swagger UI?
+
+1. You have to write the definition in a json file under ```static``` folder. Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/static/api/petstore/get-pet.json" target="_blank">this</a> json file.
+
+2. Write a React component, where the url points to the json file you created above. Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/src/components/petstore/get-pet.js" target="_blank">this</a> React component.
+
+3. Import the React component that you just wrote to the markdown (mdx) file. Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/src/pages/docs/pets/read-pet.mdx" target="_blank">this</a> markdown.
+
+<hr />
+
+## Why the markdown file already contains the layout and css style?
+
+Thanks to ```gatsby-config.js```, and check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/gatsby-config.js" target="_blank">this</a>.
+
+<hr />
+
+## Any GraphQL implementation?
+
+Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/src/hooks/use-sitemetadata.js" target="_blank">this</a> example, and the data comes from ```gatsby-config.js```.
+
+<hr />
+
+## Github
+
+Want to run it on local? Check <https://github.com/beckzayi/hello-gatsby>
+
+<hr />
+
+## Where to update CSS style?
+
+Check <a href="https://github.com/beckzayi/hello-gatsby/blob/master/src/components/layout.js" target="_blank">this</a>.
