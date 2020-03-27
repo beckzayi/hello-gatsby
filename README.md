@@ -14,4 +14,4 @@ npm install
 npm run develop
 ```
 
-Your site is now running at ```http://localhost:8000```. To use GraphQL playground, visit ```http://localhost:8001/___graphql```.
+Your site is now running at ```http://localhost:8000```. To use GraphQL playground, visit ```http://localhost:8000/___graphql```.

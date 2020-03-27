@@ -4,6 +4,7 @@ import Header from './header';
 import Sidebar from './sidebar';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/font.css';
 import '../styles/global.css';
 import '../styles/swagger-global.css';
 import '../styles/theme-material.css';

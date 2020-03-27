@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 export default () => (
     <Layout>
         <div>
-            <h1>Introduction</h1>
+            <h1>EnableHR API Documentation</h1>
             <div>EnableHR can be integrated with many environments and programming languages via our REST API. Some of our users have contributed their API wrappers in various programming languages.</div>
         </div>
         <div className="mt-4">
-            <h1>Overview</h1>
+            <h2>Overview</h2>
             <div>
                 <p>The EnableHR API allows you to interact with our system programmatically from your own application. Using the API you interact with resources such as:</p>
                 <p>
@@ -22,7 +22,7 @@ export default () => (
             </div>
         </div>
         <div className="mt-4">
-            <h1>Demo</h1>
+            <h2>Demo</h2>
             <div>
                 <ul>
                     <li>Go to <Link to="/docs/pets/read-pet">Read Pet</Link></li>
@@ -33,7 +33,7 @@ export default () => (
             </div>
         </div>
         <div className="mt-4">
-            <h1>Technologies</h1>
+            <h2>Technologies</h2>
             <div>
                 <ul>
                     <li><b>Gatsby</b> - an html generator.</li>
@@ -45,7 +45,7 @@ export default () => (
             </div>
         </div>
         <div className="mt-4">
-            <h1>Github</h1>
+            <h2>Github</h2>
             <div>
                 <a href="https://github.com/beckzayi/hello-gatsby" target="_blank" rel="noopener noreferrer">https://github.com/beckzayi/hello-gatsby</a>
             </div>
