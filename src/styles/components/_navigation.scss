@@ -1,55 +1,7 @@
-:root {
-    font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #020a2c;
-    font-family: "Futura PT", sans-serif;;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 4.25rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    line-height: 3rem;
-}
-
-h2, h3, h4, h5, h6 {
-    font-weight: 700;
-}
-
-code {
-    display: inline;
-    padding: 1px 2px;
-    margin: 0 2px;
-    font-size: 0.75rem;
-    background-color: rgba(0,0,0,0.04);
-    color: #e74c3c;
-    border: 1px solid #eee;
-    border-radius: 3px;
-}
-
-a {
-    color: #48a383;
-}
-
-a:hover {
-    color: #12af7f;
-    text-decoration: none;
-}
-
-.button-enablehr {
-    color: #fff;
-    background: #48a383;
-}
-
-.button-enablehr:hover {
-    color: #fff;
-    background: #12af7f;
+header .navbar-nav .nav-link {
+    font-family: "Futura PT", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
 }
 
 .bd-navbar {
@@ -99,9 +51,4 @@ a:hover {
 
 .bd-toc-item {
     margin-bottom: 1rem;
-}
-
-.request-wrap h2 {
-    font-weight: 300;
-    font-size: 1.25rem;
 }
