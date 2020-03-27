@@ -3,7 +3,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #020a2c;
+    color: $black;
     font-family: "Futura PT", sans-serif;
 }
 
@@ -28,28 +28,28 @@ code {
     margin: 0 2px;
     font-size: 0.75rem;
     background-color: rgba(0,0,0,0.04);
-    color: #e74c3c;
-    border: 1px solid #eee;
+    color: $red;
+    border: 1px solid $gray-100;
     border-radius: 3px;
 }
 
 a {
-    color: #48a383;
+    color: $principal-green;
 }
 
 a:hover {
-    color: #12af7f;
+    color: $dark-green;
     text-decoration: none;
 }
 
 .button-enablehr {
-    color: #fff;
-    background: #48a383;
+    color: $white;
+    background: $principal-green;
 }
 
 .button-enablehr:hover {
-    color: #fff;
-    background: #12af7f;
+    color: $white;
+    background: $dark-green;
 }
 
 .request-wrap h2 {

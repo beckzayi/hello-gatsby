@@ -2,11 +2,12 @@ header .navbar-nav .nav-link {
     font-family: "Futura PT", sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
+    color: $gray-100;
 }
 
 .bd-navbar {
     min-height: 4rem;
-    background: #48a383;
+    background: $principal-green;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
 }
 
@@ -38,15 +39,15 @@ header .navbar-nav .nav-link {
     display: block;
     padding: .25rem 1.5rem;
     font-size: 90%;
-    color: #020a2c;
+    color: $black;
     border-left: 3px solid transparent;
     min-height: 2rem;
 }
 
 .bd-sidebar .nav > li > a.bd-sidenav-active, .bd-sidebar .nav > li > a:hover {
-    color: #48a383;
+    color: $principal-green;
     background-color: rgba(0,0,0,0.07);
-    border-color: #48a383;
+    border-color: $principal-green;
 }
 
 .bd-toc-item {

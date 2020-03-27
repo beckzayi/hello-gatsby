@@ -7,7 +7,7 @@ const Sidebar = () => (
             <div className="bd-toc-link">Pet Store (swagger ui)</div>
             <ul className="nav bd-sidenav">
                 <li>
-                    <Link to="/docs/pets/read-pet" activeClassName="current-page active bd-sidenav-active">Read Pet<span className="text-warning float-right">Try</span></Link>
+                    <Link to="/docs/pets/read-pet" activeClassName="current-page active bd-sidenav-active">Read Pet</Link>
                 </li>
                 <li>
                     <Link to="/docs/pets/create-pet" activeClassName="current-page active bd-sidenav-active">Create Pet</Link>
@@ -24,10 +24,10 @@ const Sidebar = () => (
             <div className="bd-toc-link">Post (jsonplaceholder)</div>
             <ul className="nav bd-sidenav">
                 <li>
-                    <Link to="/docs/jsonplaceholder/all-posts" activeClassName="current-page active bd-sidenav-active">All Posts<span className="text-warning float-right">Try</span></Link>
+                    <Link to="/docs/jsonplaceholder/all-posts" activeClassName="current-page active bd-sidenav-active">All Posts</Link>
                 </li>
                 <li>
-                    <Link to="/docs/jsonplaceholder/read-post" activeClassName="current-page active bd-sidenav-active">Read Post<span className="text-warning float-right">Try</span></Link>
+                    <Link to="/docs/jsonplaceholder/read-post" activeClassName="current-page active bd-sidenav-active">Read Post</Link>
                 </li>
             </ul>
         </div>

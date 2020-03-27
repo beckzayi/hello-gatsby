@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Header = () => (
-    <header className="navbar navbar-expand navbar-dark bd-navbar">
+    <header className="navbar navbar-expand bd-navbar">
         <a className="navbar-brand mr-0 mr-md-2" href="/" aria-label="enableHR">
             <img src="/images/logo.svg" title="enableHR" alt="enableHR" />
         </a>
