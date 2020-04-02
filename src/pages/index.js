@@ -12,9 +12,6 @@ export default () => (
             <h2>Overview</h2>
             <div>
                 <p>The EnableHR API allows you to interact with our system programmatically from your own application. Using the API you interact with resources such as:</p>
-                <p>
-                    <Link to="/docs/pets/read-pet" className="btn btn-primary">Try Now</Link>
-                </p>
                 <ul>
                     <li><Link to="/docs/pets/read-pet">Pets</Link> (reference: <a href="https://petstore.swagger.io/" target="_blank" rel="noopener noreferrer">Swagger UI</a>)</li>
                     <li><Link to="/docs/jsonplaceholder/read-post">Posts</Link> (reference: <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer">JSONPlaceholder</a>)</li>
