@@ -6,7 +6,7 @@ import Footer from './footer';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 import '../styles/app.scss';
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
     const { title, description } = useSiteMetadata();
     return (
         <>
@@ -19,10 +19,22 @@ const Layout = ({ children }) => {
             <Header />
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 col-xl-2 bd-sidebar"><Sidebar /></div>
-                    <div className="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
-                        <main>{ children }</main>
-                    </div>
+                    {
+                        props.includeSidebar === false ?
+                        <>
+                            <div className="col-md-12 col-xl-12 py-md-3 bd-content">
+                                <main>{ props.children }</main>
+                            </div>
+                        </>
+                        :
+                        <>
+                            <div className="col-md-3 col-xl-2 bd-sidebar"><Sidebar /></div>
+                            <div className="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+                                <main>{ props.children }</main>
+                            </div>
+                        </>
+                    }
+                    
                 </div>
             </div>
             <div className="container-fluid">
@@ -33,7 +45,7 @@ const Layout = ({ children }) => {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Layout;

@@ -4,8 +4,8 @@ import Layout from '../components/layout';
 class Partner extends React.Component {
     render() {
         return (
-            <Layout>
-                <div className="container">
+            <Layout includeSidebar={false}>
+                <div>
                     <h1>Build, launch and grow your app with enableHR</h1>
 
                     <hr />
