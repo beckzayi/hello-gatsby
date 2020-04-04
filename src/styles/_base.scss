@@ -18,6 +18,10 @@ h2 {
     line-height: 3rem;
 }
 
+h3 {
+    font-size: 1.4rem;
+}
+
 h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
@@ -42,17 +46,19 @@ a:hover {
     text-decoration: none;
 }
 
-.button-enablehr {
-    color: $white;
-    background: $principal-green;
-}
-
-.button-enablehr:hover {
-    color: $white;
-    background: $dark-green;
-}
-
 .request-wrap h2 {
     font-weight: 300;
     font-size: 1.25rem;
+}
+
+.page-width-standard {
+    max-width: 1000px;
+    width: 99.9%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 30px;
+}
+
+.section-title {
+    font-size: 1.75rem;
 }

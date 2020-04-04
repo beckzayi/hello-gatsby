@@ -52,7 +52,7 @@ class Request extends React.Component {
                         <label htmlFor="body"><h2>Request Body</h2></label>
                         <textarea id="body" className="form-control" rows="6" cols="50" name="body" value={this.state.body} onChange={this.handleChange} />
                     </div>
-                    <button type="submit" className="btn button-enablehr">Send Request</button>
+                    <button type="submit" className="btn btn-enablehr">Send Request</button>
                 </form>
 
                 <div className="mt-4">

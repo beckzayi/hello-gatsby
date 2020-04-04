@@ -5,16 +5,20 @@ class Partner extends React.Component {
     render() {
         return (
             <Layout includeSidebar={false}>
-                <div>
-                    <h1>Build, launch and grow your app with enableHR</h1>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-12 col-xl-12 py-md-3 bd-content">
+                            <h1>Build, launch and grow your app with enableHR</h1>
 
-                    <hr />
-                
-                    <p>EnableHR already has over one million subscribers worldwide. Building to our API creates a revenue stream and global channel to market for your software.</p>
+                            <hr />
+                        
+                            <p>EnableHR already has over one million subscribers worldwide. Building to our API creates a revenue stream and global channel to market for your software.</p>
 
-                    <div className="mb-5">
-                        <p>We’re happy to answer all your questions. Call us on our toll-free number <span className="contact-number">1300 549 548</span></p>
-                        <p>Or fill out the form and we’ll get back to you soon.</p>
+                            <div className="mb-5">
+                                <p>We’re happy to answer all your questions. Call us on our toll-free number <span className="contact-number">1300 549 548</span></p>
+                                <p>Or fill out the form and we’ll get back to you soon.</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="row pt-5">
