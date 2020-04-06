@@ -24,7 +24,7 @@ export default (props) => (
                 <div className="row">
                     <div className="col-4 offset-4">
                         <div className="card-container text-center">
-                            <img src="/images/service-resources.svg" className="w-100 mb-2" />
+                            <img src="/images/service-resources.svg" className="w-100 mb-2" alt="Docs" />
                             <h3>Docs</h3>
                             <div className="card-content mb-3">
                                 Browse all the information you need to integrate with Xero, including our getting started guide

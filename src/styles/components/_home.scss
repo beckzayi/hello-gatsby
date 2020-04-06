@@ -38,8 +38,15 @@
     margin-bottom: 20px;
 }
 
+.card-title {
+    position: relative;
+    display: block;
+}
+
 .card-content {
     font-size: 0.9375rem;
+    font-weight: 300;
+    margin-top: 12px;
 }
 
 .card-extra {

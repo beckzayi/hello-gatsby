@@ -2,30 +2,6 @@
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: $black;
-    font-family: "Futura PT", sans-serif;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 4.25rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    line-height: 3rem;
-}
-
-h3 {
-    font-size: 1.4rem;
-}
-
-h2, h3, h4, h5, h6 {
-    font-weight: 700;
-}
-
 code {
     display: inline;
     padding: 1px 2px;
@@ -44,6 +20,9 @@ a {
 a:hover {
     color: $dark-green;
     text-decoration: none;
+}
+a.text-dark:hover {
+    color: $gray-500 !important;
 }
 
 .request-wrap h2 {
