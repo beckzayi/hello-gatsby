@@ -20,14 +20,14 @@ export default (props) => (
             </div>
 
             <section className="page-width-standard">
-                <h2 className="text-center section-title mb-3">Start building an integration with Xero</h2>
+                <h2 className="text-center section-title mb-3">Start building an integration with enableHR</h2>
                 <div className="row">
                     <div className="col-4 offset-4">
                         <div className="card-container text-center">
                             <img src="/images/service-resources.svg" className="w-100 mb-2" alt="Docs" />
                             <h3>Docs</h3>
                             <div className="card-content mb-3">
-                                Browse all the information you need to integrate with Xero, including our getting started guide
+                                Browse all the information you need to integrate with enableHR, including our getting started guide
                             </div>
                             <div className="card-extra">
                                 <a href="/docs" className="font-weight-bold rounded-sm">Explore the Documentation</a>

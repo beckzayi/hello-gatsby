@@ -68,7 +68,7 @@ export default () => (
                         <div className="col">
                             <div className="card-container">
                                 <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    Accounting
+                                    WHS
                                 </a>
                             </div>
                         </div>
