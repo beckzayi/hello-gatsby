@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFolder, faTasks, faMedkit, faUserTie, faPeopleCarry } from '@fortawesome/free-solid-svg-icons'
 import Layout from '../../components/layout';
 
 export default () => (
@@ -67,36 +69,41 @@ export default () => (
                     <div className="row">
                         <div className="col">
                             <div className="card-container">
-                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    WHS
+                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 p-2 font-bold">
+                                    <FontAwesomeIcon icon={faMedkit} size="4x" color="#5a6073" />
+                                    <div className="mt-3">WHS</div>
                                 </a>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card-container">
-                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    Employees
+                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 p-2 font-bold">
+                                    <FontAwesomeIcon icon={faUserTie} size="4x" color="#5a6073" />
+                                    <div className="mt-3">Employees</div>
                                 </a>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card-container">
-                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    Documents
+                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 p-2 font-bold">
+                                    <FontAwesomeIcon icon={faFolder} size="4x" color="#5a6073" />
+                                    <div className="mt-3">Documents</div>
                                 </a>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card-container">
-                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    Reviews
+                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 p-2 font-bold">
+                                    <FontAwesomeIcon icon={faTasks} size="4x" color="#5a6073" />
+                                    <div className="mt-3">Reviews</div>
                                 </a>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card-container">
-                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 font-bold">
-                                    Contractors
+                                <a href="/" className="card-title font-weight-bold text-center text-dark m-3 p-2 font-bold">
+                                    <FontAwesomeIcon icon={faPeopleCarry} size="4x" color="#5a6073" />
+                                    <div className="mt-3">Contractors</div>
                                 </a>
                             </div>
                         </div>
