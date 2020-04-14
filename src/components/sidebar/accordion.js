@@ -12,7 +12,7 @@ class Accordion extends React.Component {
         }
     }
 
-    handleOnClick() {
+    handleOnClick = () => {
         this.setState({
             isExpand: !this.state.isExpand
         })
