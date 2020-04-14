@@ -1,0 +1,46 @@
+- title: Documentation
+  key: docs
+  breadcrumbTitle: Docs
+  items:
+    - title: Introduction
+      link: /docs/
+    - title: Quick Start
+      link: /docs/quick-start/
+    - title: Pet Store (swagger ui)
+      items:
+        - title: Read Pet
+          link: /docs/pets/read-pet
+        - title: Create Pet
+          link: /docs/pets/create-pet
+        - title: Update Pet
+          link: /docs/pets/update-pet
+        - title: Delete Pet
+          link: /docs/pets/delete-pet
+    - title: Post (jsonplaceholder)
+      items:
+        - title: All Posts
+          link: /docs/jsonplaceholder/all-posts
+        - title: Read Post
+          link: /docs/jsonplaceholder/read-post
+    - title: Subscriptions
+      link: /docs/subscriptions
+      items:
+        - title: Read Subscription
+          link: /docs/subscriptions/read-subscription
+        - title: Create Subscription
+          link: /docs/subscriptions/create-subscription
+        - title: Update Subscription
+          link: /docs/subscriptions/update-subscription
+        - title: Delete Subscription
+          link: /docs/subscriptions/delete-subscription
+    - title: Recipes
+      link: /docs/recipes/
+      items:
+        - title: Pages and Layouts
+          link: /docs/recipes/pages-layouts/
+        - title: Styling with CSS
+          link: /docs/recipes/styling-css/
+        - title: Working with Plugins
+          link: /docs/recipes/working-with-plugins/
+        - title: Working with Starters
+          link: /docs/recipes/working-with-starters/

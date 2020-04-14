@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Header from './header';
-import Sidebar from './sidebar';
+import Sidebar from './sidebar/sidebar';
 import Footer from './footer';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 import '../styles/app.scss';
@@ -25,7 +25,9 @@ const Layout = (props) => {
                 :
                 <div className="container-fluid">
                     <div className="row">
-                    <div className="col-md-3 col-xl-2 bd-sidebar"><Sidebar /></div>
+                    <div className="col-md-3 col-xl-2 bd-sidebar">
+                        <Sidebar />
+                    </div>
                     <div className="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
                         <main>{ props.children }</main>
                     </div>
