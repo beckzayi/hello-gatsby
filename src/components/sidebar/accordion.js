@@ -12,10 +12,16 @@ class Accordion extends React.Component {
         }
     }
 
-    handleOnClick = () => {
+    toggleAccordion = () => {
         this.setState({
             isExpand: !this.state.isExpand
-        })
+        });
+    }
+
+    openAccordion = (e) => {
+        this.setState({
+            isExpand: true
+        });
     }
 
     render() {
@@ -30,8 +36,8 @@ class Accordion extends React.Component {
                     }
                     { this.props.items && (
                         <span
-                            style={ { float: 'right', color: '#a2a6b1' } }
-                            onClick={this.handleOnClick}
+                            className="arrow-nav"
+                            onClick={this.toggleAccordion}
                         >
                             <FontAwesomeIcon icon={ this.state.isExpand ? faChevronUp : faChevronRight } />
                         </span>
@@ -39,7 +45,7 @@ class Accordion extends React.Component {
                     
                 </div>
                 { this.props.items && (
-                    <ul className={`nav bd-sidenav ${!this.state.isExpand && `d-none`}`}>
+                    <ul className={`nav bd-sidenav ${this.state.isExpand ? `d-block` : `d-none`}`}>
                         { this.renderItems(this.props.items) }
                     </ul>
                 ) }
@@ -49,7 +55,7 @@ class Accordion extends React.Component {
 
     renderItems(items) {
         return (
-            items.map(subItem => <Item key={subItem.title} {...subItem} />)
+            items.map(subItem => <Item key={subItem.title} {...subItem} onLinkClick={this.openAccordion} />)
         );
     }
 }

@@ -14,6 +14,10 @@
     font-weight: 600;
 }
 
+.bd-toc-link > a {
+    color: $black;
+}
+
 .bd-toc-link ~ .bd-sidenav .bd-sidenav-active {
     color: $dark-green;
 }
@@ -48,7 +52,17 @@
 }
 
 
-
 .bd-toc-item {
     margin-bottom: 1rem;
+}
+
+.arrow-nav {
+    float: right;
+    width: 24px;
+    cursor: pointer;
+    color: $gray-300;
+    text-align: center;
+    &:hover {
+        background-color: $gray-200;
+    }
 }
