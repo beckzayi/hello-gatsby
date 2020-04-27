@@ -59,3 +59,6 @@
 // }
 
 // export default MyTest;
+
+import React from 'react';
+export default () => <h1>test/test.js</h1>
