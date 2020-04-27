@@ -32,3 +32,7 @@
 // }
 
 // export default MyTestReact;
+
+import React from 'react';
+
+export default () => <h1>test/test-react.js</h1>
