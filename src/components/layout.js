@@ -28,7 +28,7 @@ const Layout = (props) => {
                     <div className="col-md-3 col-xl-2 bd-sidebar">
                         <Sidebar />
                     </div>
-                    <div className="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+                    <div className="col-md-9 col-xl-10 bd-content">
                         <main>{ props.children }</main>
                     </div>
                     </div>
