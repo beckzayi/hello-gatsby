@@ -6,6 +6,10 @@
       link: /docs/
     - title: Quick Start
       link: /docs/quick-start/
+    - title: Films
+      items:
+        - title: All Films
+          link: /docs/films/all-films
     - title: Pet Store (swagger ui)
       items:
         - title: Read Pet
