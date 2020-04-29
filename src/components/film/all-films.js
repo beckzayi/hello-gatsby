@@ -21,7 +21,7 @@ class Films extends React.Component {
     renderContent() {
         if (this.state.graphql) {
             return (
-                <GraphiQLEditor query={queryString} />
+                <GraphiQLEditor query={queryString} variables={null} />
             );
         } else {
             return (
