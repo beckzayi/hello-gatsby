@@ -2,6 +2,7 @@ import React from 'react';
 import GraphiQLEditor from '../../utils/graphiql/editor';
 import queryString from './all-films-query';
 import Options from '../option/options';
+import SwaggerEditor from '../../utils/swagger-ui/editor';
 
 class Films extends React.Component {
     constructor(props) {
@@ -23,7 +24,9 @@ class Films extends React.Component {
                 <GraphiQLEditor queryString={queryString} />
             );
         } else {
-            return 'SwaggerUI';
+            return (
+                <SwaggerEditor url="https://petstore.swagger.io/v2/swagger.json" />
+            );
         }
     }
 
