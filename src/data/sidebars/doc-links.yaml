@@ -10,6 +10,8 @@
       items:
         - title: All Films
           link: /docs/films/all-films
+        - title: Read Film
+          link: /docs/films/get-film
     - title: Pet Store (swagger ui)
       items:
         - title: Read Pet
