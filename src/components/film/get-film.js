@@ -1,10 +1,11 @@
 import React from 'react';
 import GraphiQLEditor from '../../utils/graphiql/editor';
-import queryString from './all-films-query';
+import queryString from './get-film-query';
 import Options from '../option/options';
 import SwaggerEditor from '../../utils/swagger-ui/editor';
+import { id_film } from '../../utils/graphiql/constant';
 
-class Films extends React.Component {
+class Film extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -21,7 +22,7 @@ class Films extends React.Component {
     renderContent() {
         if (this.state.graphql) {
             return (
-                <GraphiQLEditor query={queryString} />
+                <GraphiQLEditor query={queryString} variables={`{ "id": "${id_film}" }`} />
             );
         } else {
             return (
@@ -46,4 +47,4 @@ class Films extends React.Component {
     }
 }
 
-export default Films;
+export default Film;
