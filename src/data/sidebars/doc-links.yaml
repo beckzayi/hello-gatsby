@@ -2,10 +2,18 @@
   key: docs
   breadcrumbTitle: Docs
   items:
-    - title: Introduction
-      link: /docs/
-    - title: Quick Start
-      link: /docs/quick-start/
+    - title: Basics
+      items:
+        - title: Introduction
+          link: /docs/basics/introduction
+        - title: API Registration
+          link: /docs/basics/api-registration
+    - title: FAQ
+      items:
+        - title: Guides
+          link: /docs/faq/guides
+        - title: Code Examples
+          link: /docs/faq/code-examples
     - title: Films
       items:
         - title: All Films
