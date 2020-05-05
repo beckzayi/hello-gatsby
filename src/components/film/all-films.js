@@ -3,6 +3,7 @@ import GraphiQLEditor from '../../utils/graphiql/editor';
 import queryString from './all-films-query';
 import Options from '../option/options';
 import SwaggerEditor from '../../utils/swagger-ui/editor';
+import schema from '../../data/schema/film/all-films.json';
 
 class Films extends React.Component {
     constructor(props) {
@@ -36,9 +37,26 @@ class Films extends React.Component {
         );
     }
 
+    renderSchema() {
+        const elements = JSON.parse(JSON.stringify(schema, null));
+        return (
+            <table className="table col-md-6">
+                <tbody>
+                { Object.keys(elements).map(key => (
+                    <tr key={key}>
+                        <td style={{ fontWeight: 600 }}>{key}</td>
+                        <td style={{ fontWeight: 300 }}>{elements[key]}</td>
+                    </tr>
+                )) }
+                </tbody>
+            </table>
+        );
+    }
+
     render() {
         return(
             <div>
+                <div className="mb-4">{ this.renderSchema() }</div>
                 <div className="mb-4">{ this.renderOptions() }</div>
                 <div>{ this.renderContent() }</div>
             </div>
