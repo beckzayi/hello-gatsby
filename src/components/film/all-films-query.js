@@ -1,4 +1,4 @@
-const query = `query {
+const query = `{
   allFilms {
     id
     director
