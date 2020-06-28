@@ -1,4 +1,4 @@
-const query = `{
+const query = `query ($id: ID!){
   Film(id: $id) {
     id
     title
