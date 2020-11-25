@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Item from './item';
 
 class Accordion extends React.Component {
@@ -39,7 +37,7 @@ class Accordion extends React.Component {
                             className="arrow-nav"
                             onClick={this.toggleAccordion}
                         >
-                            <FontAwesomeIcon icon={ this.state.isExpand ? faChevronUp : faChevronRight } />
+                            {this.state.isExpand ? "|" : "->"}
                         </span>
                     ) }
                     
